@@ -14,7 +14,7 @@ class Evaluation():
         self.prediction = predicted
         self.giniDF = None
         self.df = pd.DataFrame({'predicted':predicted,'actual':actual})
-        self.gini = gini(actual,predicted)
+        
 
 
 
